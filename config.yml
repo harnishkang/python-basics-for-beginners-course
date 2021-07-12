@@ -1,0 +1,20 @@
+title: Python Basics For Beginners
+description: >-
+  In this course I will try to cover all the topics related to Python Basics.
+  After Completing this you will be able to work on python scripts of your own.
+  I will try to add as many examples and problems as I can . Rest readers
+  feedback is always valuable. 
+template:
+  repo: python-basics-for-beginners-template
+  name: python-basics-for-beginners
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
